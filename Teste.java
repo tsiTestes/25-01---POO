@@ -24,10 +24,6 @@ public class Teste {
        Cachorro c3 = new Cachorro("Bob",70.5);
        Cachorro c4 = new Cachorro("Phiphi",5.2);
 
-//       Animal a1 = new Animal("Macaco",2.5);
-//       Animal a2 = new Animal("On�a",30.5);
-//       Animal a3 = new Animal("Cobra",4.35);
-
 
        z.adicionar(g1);
        z.adicionar(g2);
@@ -42,7 +38,7 @@ public class Teste {
        
        Veterinario v1 = new Veterinario("Roberto");
        Veterinario v1 = new Veterinario("Amanda");
-        Veterinario v1 = new Veterinario("Teste");
+        Veterinario v1 = new Veterinario("Taysa");
 
 
        
