@@ -2,8 +2,8 @@ import java.util.ArrayList;
 
 /**********************************
  * IFPB - Curso Superior de Tec. em Sist. para Internet
- * Programação Orientada a Objetos
- * Prof. Fausto Maranhão Ayres
+ * Programaï¿½ï¿½o Orientada a Objetos
+ * Prof. Fausto Maranhï¿½o Ayres
  * 
  * exemplo usado nos slides
  **********************************/
@@ -22,9 +22,10 @@ public class Teste {
        Cachorro c1 = new Cachorro("Lua",30.5);
        Cachorro c2 = new Cachorro("Marley",40.5);
        Cachorro c3 = new Cachorro("Bob",70.5);
+       Cachorro c4 = new Cachorro("Phiphi",5.2);
 
 //       Animal a1 = new Animal("Macaco",2.5);
-//       Animal a2 = new Animal("Onça",30.5);
+//       Animal a2 = new Animal("Onï¿½a",30.5);
 //       Animal a3 = new Animal("Cobra",4.35);
 
 
@@ -36,9 +37,14 @@ public class Teste {
        z.adicionar(c1);
        z.adicionar(c2);
        z.adicionar(c3);
+       z.adicionar(c4);
        
        
        Veterinario v1 = new Veterinario("Roberto");
+       Veterinario v1 = new Veterinario("Amanda");
+        Veterinario v1 = new Veterinario("Teste");
+
+
        
        System.out.println("A gata "+g1.getNome()+" faz " + g1.emitirSom()+"!");
        System.out.println(v1.aplicarInjecao(g1));
@@ -46,7 +52,7 @@ public class Teste {
        System.out.println("Quantidade de gatos: "+z.contarGatos());
        System.out.println("Quantidade de gatos: "+z.contarCachorro());
        System.out.println("Maior animal: "+z.obterMaiorAninal());
-       System.out.println("Gatos do zoológico: "+z.obterGatos());
+       System.out.println("Gatos do zoolï¿½gico: "+z.obterGatos());
        System.out.println("Gatos saltadores: "+z.obterGatosSaltadores());
 
     }
